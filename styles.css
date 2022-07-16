@@ -1,0 +1,165 @@
+body
+{
+    margin: 0;
+    font-family: 'fantasy', 'monospace';
+}
+
+    /* intro */
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background:
+    url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612896659_112-p-krasnie-foni-stim-152.jpg) center no-repeat;
+    -webkit-bakcground-size: cover;
+}
+/* conrainer */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+#container1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.intro_title{
+    color: white;
+    opacity: 0.8;
+    font-size: 125px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+  }
+.intro_sup{
+    color: #fff;
+    opacity: 0.8;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.menu{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 150px;
+}
+
+.nav_link{
+    opacity: 0.8;
+    width: 24%;
+    text-transform: uppercase;
+    transition: color .2s linear;
+    margin: 0 100px;
+    text-decoration: none;
+}
+.nav_link:link {
+color: #800800;
+}
+/* visited link */
+.nav_link:visited {
+color: #800800;
+}
+/* mouse over link */
+.nav_link:hover {
+color: #ff3b2e;
+}
+/* selected link */
+.nav_link:active {
+color: #ff3b2e;
+}
+#main_text{
+    font-size: 30px;
+    text-align: justify;
+}
+.text{
+    font-size: 20px;
+    text-align: justify;
+}
+/* section */
+.section{
+    width: 100%;
+    height: 100vh;
+    padding: 70px;
+    background-color: #f2e2e1;
+}
+#section1{
+    width: 100%;
+    height: 100vh;
+    background:
+    url(https://www.iamag.co/wp-content/uploads/2015/01/klaus-pillon21.jpg) center no-repeat;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #285c70;
+    opacity: 20%;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    z-index: 1;
+    text-transform: uppercase;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active, .accordion:hover {
+    background-color: #d7f7f7;
+    opacity: 80%;
+}
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+    padding: 0 18px;
+    background-color:#d7f7f7;
+    opacity: 80%;
+    display: none;
+    overflow: hidden;
+    }
+
+#menu3{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 150px;
+}
+
+.nav_links{
+    opacity: 0.8;
+    width: 24%;
+    text-transform: uppercase;
+    transition: color .2s linear;
+    margin: 0 100px;
+    text-decoration: none;
+}
+.nav_links:link {
+color: #f7fcfc;
+}
+/* visited link */
+.nav_links:visited {
+color: #f7fcfc;
+}
+/* mouse over link */
+.nav_links:hover {
+color: #81f0f0;
+}
+/* selected link */
+.nav_links:active {
+color: #81f0f0;
+}
